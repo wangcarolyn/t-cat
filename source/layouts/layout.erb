@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+
+    <%= stylesheet_link_tag :site %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+      <div class="header">
+        <div class="t-cat-logo">黑貓探險隊</div>
+        <ul>
+          <li><a href="index.html" class="menu-index">活動首頁</a></li>
+          <li><a href="rule.html" class="menu-rule">活動辦法</a></li>
+          <li><a class="menu-award">得獎名單</a></li>
+          <li><a class="menu-shopping">年菜哪裡買</a></li>
+        </ul>
+      </div>
+      <div class="kv">
+        <div class="btn-message animated infinite"></div>
+        <div id="desk" class="desk-1"></div>
+        <ul class="desk-list">
+          <li><a class="year selected" data-desk="desk-1"></a></li>
+          <li><a class="spring" data-desk="desk-2"></a></li>
+          <li><a class="happiness" data-desk="desk-3"></a></li>
+          <li><a class="fortune" data-desk="desk-4"></a></li>
+        </ul>
+        <div class="link">
+          <a href="https://icook.tw/recipes/135324" class="cook-1">
+            <a href="" class="share-1"></a>
+            <p class="view-1">瀏覽數9999</p>
+          </a>
+          <a href="https://icook.tw/recipes/135145" class="cook-2">
+            <a href="" class="share-2"></a>
+            <p class="view-2">瀏覽數8999</p>
+          </a>
+          <a class="meal-1"></a>
+          <a class="shop-1"></a>
+          <a class="meal-2"></a>
+          <a class="shop-2"></a>
+          <a class="meal-3"></a>
+          <a class="shop-3"></a>
+        </div>
+      </div>
+      <a href="#" class="scroll-to-top" style="display:none"></a>
+    <div class="content">
+      <%= yield %>
+    </div>
+  </body>
+</html>

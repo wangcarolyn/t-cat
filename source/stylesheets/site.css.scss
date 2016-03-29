@@ -1,0 +1,408 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  text-align: left;
+  font-size: 1em;
+  background: image_url("bg_1.png");
+  padding-bottom: 100px;
+}
+
+.t-cat-logo {
+  background: image_url("logo.png") no-repeat;
+  position: absolute;
+  height: 60px;
+  width: 180px;
+  left: 90px;
+  top: 30px;
+  text-indent: -6000px;
+}
+
+.header {
+  ul {
+    position: absolute;
+    height: 100px;
+    width: 800px;
+    left: 300px;
+    top: 30px;
+    text-align: left;
+    z-index: 2;
+  }
+
+  li {
+    display: inline-block;
+    text-indent: -6000px;
+  }
+
+  a {
+    display: block;
+    height: 80px;
+    width: 160px;
+    margin-right: 35px;
+  }
+
+  border-top: 22px solid #b50000;
+  background-position: left;
+  background-color: white;
+  width: 1280px;
+  height: 130px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.menu-index {
+  background: image_url("m_1a.png") no-repeat;
+}
+
+.menu-index:hover {
+  background: image_url("m_1b.png") no-repeat;
+}
+
+.menu-rule {
+  background: image_url("m_2a.png") no-repeat;
+}
+
+.menu-rule:hover {
+  background: image_url("m_2b.png") no-repeat;
+}
+
+.menu-award {
+  background: image_url("m_3a.png") no-repeat;
+}
+
+.menu-award:hover {
+  background: image_url("m_3b.png") no-repeat;
+}
+
+.menu-shopping {
+  background: image_url("m_4a.png") no-repeat;
+}
+
+.menu-shopping:hover {
+  background: image_url("m_4b.png") no-repeat;
+}
+
+
+.kv {
+  background: image_url("kv.png") no-repeat left;
+  position: relative;
+  width: 1280px;
+  height: 790px;
+  top: -60px;
+  margin: 0 auto;
+  z-index: 4;
+}
+
+.desk-list {
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 14px;
+  }
+
+  position: absolute;
+  width: 240px;
+  height: 30px;
+  top: 117px;
+  left: 70px;
+  z-index: 1;
+}
+
+.year {
+  background: image_url("icon_1b.png") no-repeat;
+}
+
+.year:hover, .year.selected {
+  background: image_url("icon_1a.png") no-repeat;
+}
+
+.spring {
+  background: image_url("icon_2b.png") no-repeat;
+}
+
+.spring:hover, .spring.selected {
+  background: image_url("icon_2a.png") no-repeat;
+}
+
+.happiness {
+  background: image_url("icon_3b.png") no-repeat;
+}
+
+.happiness:hover, .happiness.selected {
+  background: image_url("icon_3a.png") no-repeat;
+}
+
+.fortune {
+  background: image_url("icon_4b.png") no-repeat;
+}
+
+.fortune:hover, .fortune.selected {
+  background: image_url("icon_4a.png") no-repeat;
+}
+
+.desk-1 {
+  background: image_url("desk_1.png") no-repeat;
+  height: 790px;
+  width: 1280px;
+  top: 65px;
+  position: absolute;
+}
+
+.desk-2 {
+  background: image_url("desk_2.png") no-repeat;
+  height: 790px;
+  width: 1280px;
+  top: 65px;
+  position: absolute;
+}
+
+.desk-3 {
+  background: image_url("desk_3.png") no-repeat;
+  height: 790px;
+  width: 1280px;
+  top: 65px;
+  position: absolute;
+}
+
+.desk-4 {
+  background: image_url("desk_4.png") no-repeat;
+  height: 790px;
+  width: 1280px;
+  top: 65px;
+  position: absolute;
+}
+
+.btn-message {
+  background: image_url("button_3a.png") no-repeat;
+  width: 220px;
+  height: 180px;
+  top: 600px;
+  left: 522px;
+  position: absolute;
+  z-index: 3;
+}
+
+.btn-message:hover {
+  background: image_url("button_3b.png") no-repeat;
+}
+
+.link {
+  width: 1280px;
+  height: 800px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.cook-1 {
+  width: 320px;
+  height: 200px;
+  background: blue;
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+
+.share-1 {
+  width: 70px;
+  height: 70px;
+  top: 480px;
+  left: 350px;
+  position: absolute;
+  background: image_url("share_1.png") no-repeat;
+}
+
+.share-1:hover {
+  background: image_url("share_2.png") no-repeat;
+}
+
+.view-1 {
+  width: 100px;
+  height: 50px;
+  top: 498px;
+  left: 210px;
+  font-size: 1em;
+  position: absolute;
+}
+
+.cook-2 {
+  width: 320px;
+  height: 200px;
+  position: absolute;
+  background: purple;
+  top: 90px;
+  left: 460px;
+}
+
+.share-2 {
+  width: 70px;
+  height: 70px;
+  top: 290px;
+  left: 710px;
+  position: absolute;
+  background: image_url("share_1.png") no-repeat;
+}
+
+.share-2:hover {
+  background: image_url("share_2.png") no-repeat;
+}
+
+.view-2 {
+  width: 100px;
+  height: 50px;
+  top: 308px;
+  left: 570px;
+  font-size: 1em;
+  position: absolute;
+}
+
+.meal-1 {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  background: red;
+  top: 580px;
+  left: 200px;
+}
+
+.shop-1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 560px;
+  left: 100px;
+  background: image_url("shopping.png") no-repeat;
+}
+
+.shop-1:hover {
+  width: 30px;
+  height: 30px;
+  background: image_url("shopping_hover.png") no-repeat;
+}
+
+.meal-2 {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  background: white;
+  top: 330px;
+  left: 830px;
+}
+
+.shop-2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 140px;
+  left: 975px;
+  background: image_url("shopping.png") no-repeat;
+}
+
+.shop-2:hover {
+  width: 30px;
+  height: 30px;
+  background: image_url("shopping_hover.png") no-repeat;
+}
+
+.meal-3 {
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  background: black;
+  top: 580px;
+  left: 830px;
+}
+
+.shop-3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 570px;
+  left: 1120px;
+  background: image_url("shopping.png") no-repeat;
+}
+
+.shop-3:hover {
+  width: 30px;
+  height: 30px;
+  background: image_url("shopping_hover.png") no-repeat;
+}
+
+.content {
+  width: 1280px;
+  margin: 0 auto;
+  top: 0px;
+  position: relative;
+}
+
+.image-rule {
+  margin: 0px auto;
+  left: 90px;
+  position: absolute;
+}
+
+.box {
+  li {
+    display: block;
+    width: 950px;
+    height: 30px;
+    padding-left: 70px;
+    line-height: 30px;
+    margin: 30px 20px;
+    font-size: 1.2em;
+  }
+
+  width: 900px;
+  height: 650px;
+  margin: 40px auto 0 auto;
+  padding: 40px 40px;
+  background: #FFFFFF;
+
+}
+
+.message-year {
+  background: image_url("icon_1a.png") no-repeat;
+}
+
+.message-spring {
+  background: image_url("icon_2a.png") no-repeat;
+}
+
+.message-happiness {
+  background: image_url("icon_3a.png") no-repeat;
+}
+
+.message-fortune {
+  background: image_url("icon_4a.png") no-repeat;
+}
+
+h3 {
+  height: 120px;
+  text-indent: -6000px;
+  position: center;
+  margin: 0px auto;
+}
+
+.heading-message {
+  width: 750px;
+  background: image_url("title_2.png") no-repeat;
+}
+
+.heading-rule {
+  width: 360px;
+  background: image_url("title_1.png") no-repeat;
+}
+
+.scroll-to-top {
+  background: image_url("top_1.png") no-repeat;
+  width: 50px;
+  height: 70px;
+  right: 0px;
+  top: 0px;
+  position: fixed;
+}
